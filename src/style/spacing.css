@@ -1,0 +1,52 @@
+.ql-snow .ql-picker.ql-spacing{
+	width: 85px;
+}
+.ql-snow .ql-picker.ql-spacing .ql-picker-label[data-value=sp0]::before,
+.ql-snow .ql-picker.ql-spacing .ql-picker-item[data-value=sp0]::before {
+    content: "正常字距";
+}
+.ql-snow .ql-picker.ql-spacing .ql-picker-label[data-value=sp1]::before,
+.ql-snow .ql-picker.ql-spacing .ql-picker-item[data-value=sp1]::before {
+    content: "1倍字距";
+}
+.ql-snow .ql-picker.ql-spacing .ql-picker-label[data-value=sp2]::before,
+.ql-snow .ql-picker.ql-spacing .ql-picker-item[data-value=sp2]::before {
+	content: "2倍字距";
+}
+.ql-snow .ql-picker.ql-spacing .ql-picker-label[data-value=sp-1]::before,
+.ql-snow .ql-picker.ql-spacing .ql-picker-item[data-value=sp-1]::before {
+	content: "-1倍字距";
+}
+.ql-snow .ql-picker.ql-spacing .ql-picker-label[data-value=sp-2]::before,
+.ql-snow .ql-picker.ql-spacing .ql-picker-item[data-value=sp-2]::before {
+	content: "-2倍字距";
+}
+.ql-snow .ql-picker.ql-spacing .ql-picker-label[data-value=sp-3]::before,
+.ql-snow .ql-picker.ql-spacing .ql-picker-item[data-value=sp-3]::before {
+  content: "-3倍字距";
+}
+.ql-snow .ql-picker.ql-spacing .ql-picker-label[data-value=sp-4]::before,
+.ql-snow .ql-picker.ql-spacing .ql-picker-item[data-value=sp-4]::before {
+  content: "-4倍字距";
+}
+.ql-spacing-sp0 {
+  	letter-spacing: 0;
+} 
+.ql-spacing-sp1 {
+  	letter-spacing: 1px
+}
+.ql-spacing-sp2 {
+  	letter-spacing: 2px
+}
+.ql-spacing-sp-1 {
+  	letter-spacing: -1px
+}
+.ql-spacing-sp-2 {
+  	letter-spacing: -2px
+}
+.ql-spacing-sp-3 {
+    letter-spacing: -3px
+}
+.ql-spacing-sp-4 {
+    letter-spacing: -4px
+}

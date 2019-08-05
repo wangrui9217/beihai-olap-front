@@ -1,0 +1,33 @@
+.ql-snow .ql-picker.ql-size .ql-picker-label[data-value=erhao]::before,
+.ql-snow .ql-picker.ql-size .ql-picker-item[data-value=erhao]::before {
+    content: "二号";
+    font-size: 29px;
+}
+.ql-snow .ql-picker.ql-size .ql-picker-label[data-value=sanhao]::before,
+.ql-snow .ql-picker.ql-size .ql-picker-item[data-value=sanhao]::before {
+	content: "三号";
+	font-size: 21px;
+}
+.ql-snow .ql-picker.ql-size .ql-picker-label[data-value=xiaosan]::before,
+.ql-snow .ql-picker.ql-size .ql-picker-item[data-value=xiaosan]::before {
+	content: "小三";
+	font-size: 20px;
+}
+.ql-snow .ql-picker.ql-size .ql-picker-label[data-value=xiaoer]::before,
+.ql-snow .ql-picker.ql-size .ql-picker-item[data-value=xiaoer]::before {
+	content: "小二";
+	font-size: 24px;
+}
+ 
+.ql-size-erhao {
+  	font-size: 29px;
+}
+.ql-size-sanhao {
+  	font-size: 21px;
+}
+.ql-size-xiaosan {
+  	font-size: 20px;
+}
+.ql-size-xiaoer {
+  	font-size: 24px;
+}

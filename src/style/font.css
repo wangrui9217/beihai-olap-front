@@ -1,0 +1,33 @@
+.ql-snow .ql-picker.ql-font .ql-picker-label[data-value=SimSun]::before,
+.ql-snow .ql-picker.ql-font .ql-picker-item[data-value=SimSun]::before {
+    content: "宋体";
+    font-family: "SimSun";
+}
+.ql-snow .ql-picker.ql-font .ql-picker-label[data-value=SimHei]::before,
+.ql-snow .ql-picker.ql-font .ql-picker-item[data-value=SimHei]::before {
+	content: "黑体";
+	font-family: "SimHei";
+}
+.ql-snow .ql-picker.ql-font .ql-picker-label[data-value=Microsoft-YaHei]::before,
+.ql-snow .ql-picker.ql-font .ql-picker-item[data-value=Microsoft-YaHei]::before {
+	content: "微软雅黑";
+	font-family: "Microsoft YaHei";
+}
+.ql-snow .ql-picker.ql-font .ql-picker-label[data-value=FangSong]::before,
+.ql-snow .ql-picker.ql-font .ql-picker-item[data-value=FangSong]::before {
+	content: "仿宋";
+	font-family: "FangSong";
+}
+ 
+.ql-font-SimSun {
+  	font-family: "SimSun";
+}
+.ql-font-SimHei {
+  	font-family: "SimHei";
+}
+.ql-font-Microsoft-YaHei {
+  	font-family: "Microsoft YaHei";
+}
+.ql-font-FangSong {
+  	font-family: "FangSong";
+}
